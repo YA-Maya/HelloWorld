@@ -393,7 +393,7 @@ This example accesses the third element (2) in the second array (1) of myNumbers
      String Result =  currency.format(123456789.756);
         System.out.println(Result);
 
-        //for percent
+//for percent
         NumberFormat percent = NumberFormat.getPercentInstance();
         String Result1=  percent.format(0.1);
         System.out.println(Result1);
